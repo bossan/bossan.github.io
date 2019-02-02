@@ -150,7 +150,7 @@ footer > a{
 }
 
 @media only screen
-and (max-width: 700px) {
+and (max-width: 750px) {
     #outer-border{
         width: 95%;
     }
