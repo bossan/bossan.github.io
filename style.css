@@ -31,30 +31,7 @@ footer > a{
     color: white;
 }
 
-#outer-border {
-    /* background-color: #142127; */
-
-    max-height: 680px;
-    max-width: 850px;
-    height: 100%;
-    width: 100%;
-
-    position: absolute;
-
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-
-    margin: auto;
-
-    border-top-left-radius: 100%30px;
-    border-top-right-radius: 100%30px;
-    border-bottom-left-radius: 100%30px;
-    border-bottom-right-radius: 100%30px;    
-}
-
-#inner-border {
+#console-border {
     max-height: 600px;
     max-width: 800px;
     height: 95%;
@@ -151,11 +128,7 @@ footer > a{
 
 @media only screen
 and (max-width: 750px) {
-    #outer-border{
-        width: 95%;
-    }
-
-    #inner-border{
+    #console-border{
         width: 100%;
     }
 
