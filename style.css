@@ -167,6 +167,11 @@ and (max-width: 700px) {
         font-size: 12px;
         margin-left: 15px;
         margin-right: 15px;
+        word-wrap: auto;
+    }
+
+    #console > cursor {
+        left: 15px;
     }
 }
 
