@@ -52,7 +52,7 @@ footer > a{
         linear-gradient(-90deg, transparent 50%, #00c369 50%);
     background-size: 3px 3px;
 
-
+    /* animation: loading 0.8s infinite; */
     animation: crt 0.8s infinite;
 }
 
@@ -161,6 +161,20 @@ and (max-width: 750px) {
     80% { background-image: repeating-linear-gradient(#18b94d, #20442c 80%, #18b94d); }
     90% { background-image: repeating-linear-gradient(#18b94d, #20442c 90%, #18b94d); }
     100% { background-image: repeating-linear-gradient(#18b94d, #20442c 99%, #18b94d); }
+}
+
+@keyframes loading {
+    0% { background-image: repeating-linear-gradient(#18b94d, #ff0000 1%, #0a9aee); }
+    10% { background-image: repeating-linear-gradient(#18b94d, #ff0000 10%, #0a9aee); }
+    20% { background-image: repeating-linear-gradient(#18b94d, #ff0000 20%, #0a9aee); }
+    30% { background-image: repeating-linear-gradient(#18b94d, #ff0000 30%, #0a9aee); }
+    40% { background-image: repeating-linear-gradient(#18b94d, #ff0000 40%, #0a9aee); }
+    50% { background-image: repeating-linear-gradient(#18b94d, #ff0000 50%, #0a9aee); }
+    60% { background-image: repeating-linear-gradient(#18b94d, #ff0000 60%, #0a9aee); }
+    70% { background-image: repeating-linear-gradient(#18b94d, #ff0000 70%, #0a9aee); }
+    80% { background-image: repeating-linear-gradient(#18b94d, #ff0000 80%, #0a9aee); }
+    90% { background-image: repeating-linear-gradient(#18b94d, #ff0000 90%, #0a9aee); }
+    100% { background-image: repeating-linear-gradient(#18b94d, #ff0000 99%, #0a9aee); }
 }
 
 @keyframes blink {
