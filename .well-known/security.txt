@@ -1,0 +1,16 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:mail@sanderbos.net
+Expires: 2023-12-31T23:00:00.000Z
+Encryption: https://sanderbos.net/pgp-key.txt
+Preferred-Languages: en, nl
+Canonical: https://sanderbos.net/.well-known/security.txt
+Canonical: https://www.sanderbos.net/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQg2xRM8lGFlKlVnYItc4cI7A6ySgUCZD7tmQAKCRAtc4cI7A6y
+Sn/RAP9XdSuZW3W/YczH6pctNT0Xepfecqa27xnxebcvvZhqOAEAtkRApuVCGRzp
+rE+RCwT+6SM0yOPobjL0Q5AFc3e8/gE=
+=t4PK
+-----END PGP SIGNATURE-----
